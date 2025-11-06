@@ -1,0 +1,41 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+p { 
+    color: black;
+    text-align: center;
+}
+
+/* Container for form + image side by side */
+.personal-details {
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Content alignment */
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+/* Image CSS */
+.right-image {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;   /* makes image circular */
+    object-fit: square;    /* keeps image proportion */
+    margin-left: 40px;
+}
